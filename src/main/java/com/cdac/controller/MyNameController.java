@@ -14,7 +14,7 @@ public class MyNameController {
 	public String getEmployee() {
 		try{
 		}
-		catch(exception e){
+		catch(Exception e){
 		}
 		String str = "my name is khalid";	
 		return str;
