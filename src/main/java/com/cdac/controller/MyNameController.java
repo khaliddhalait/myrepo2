@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyNameController {
 	@GetMapping("/name")
 	public String getEmployee() {
+		try{
+		}
+		catch(exception e){
+		}
 		String str = "my name is khalid";	
 		return str;
 	}
